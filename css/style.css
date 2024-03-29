@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+*{margin: 0;
+padding: 0;}
+
+
+body{background-color: rgb(195, 195, 200);
+
+    font-family: 'Roboto', sans-serif;
+height: 40000px;}
+
+
+.navbar .navbar-brand img{border-radius: 50%;
+width:32px;
+height: 32px;}
+
+.navbar .nav-link i{ border-style: groove;
+    border-color: black;
+    
+    border: none;
+    height: 50px;
+    width:45px;
+    size: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 15px;
+    padding-right: 5px;
+}
+
+ .midd i{background-color:#c7c5c5;
+border-radius: 50%;
+padding-left:7px;
+font-size: 20px;
+
+}
+
+.navbar .nav-link  {
+    width:50px;
+   
+}
+
+
+.dropdown-toggle::after{ display: none;}
+
+
+
+
+.rd i{
+padding-top: 15px;
+cursor: pointer;
+}
+ 
+.ld{position: relative;}
+.ld .not{  position: absolute;
+ width:20px;height: 20px; 
+  border-radius: 50px; transform: translate(50%,50%); 
+  font-size: 15px;
+   display: flex; justify-content: center; align-items: center;
+font-weight: 800;
+color: white;}
+
+.rd .n{ border-radius: 1px 2px 1px 2px;
+
+    
+    height: 10px;;
+   
+    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+    
+
+}
+
+.mobile-togglor .n i{ padding-left: 15px;
+padding-top: 20px;}
+
+.navbar .rd{ padding-right: 10px;}
+
+
+.navbar .rd img{
+    width:100px;
+    height: 50px;
+    
+    
+    
+    
+}
+.navbar  .ld .collapse a{  
+    
+    color: black;
+    font-size: 19px;
+    }
+.navbar{position: relative; 
+height: 56px;
+padding: 0 16px;}
+
+.navbar  .midd{padding-left: 400px;  }
+
+.navbar  .midd button{ 
+    height: 45px;
+    width:10%;
+    margin-top: 9px;
+background-color:#c7c5c5 ; 
+color:black;
+border-style: groove;
+border-radius:1px;
+border-color: black;
+margin-right: 120px;}
+
+
+.midd button:hover{
+    background-color:#d7d5d5;
+    border-color: rgb(31, 21, 21);
+}
+
+
+.navbar  .midd input{width:500px; 
+    height: 45px;
+    margin-top: 9px;
+    border-radius:2px 0 0 2px;}
+
+    
+.midd a{ padding-right: 170px;
+transform: translate(-65%);}
+    .navbar i:hover{
+        border-radius: 50%;
+        background-color: rgb(212, 209, 209);
+        border-color: rgb(31, 21, 21);
+    }
+
+.p .nh{ display: flex;
+    border: 1px solid #ddd;
+    height: 45px;}
+
+    .rd .modal img{ width:100px; height: 50px;}
+
+    /* start header */
+
+    .header .content {
+        padding-top: 15px;
+        height:100vh;
+        background-color:  #f9f9f9;
+        }
+
+ .side{ 
+     width:280px;
+     position: fixed;
+     height:100%;
+     padding-top: 8px;
+background-color: white;
+overflow-y:auto;}
+.side .nav{flex-direction: column;
+margin: 1px 0;
+
+padding-right: 15px;}
+
+.nav-link{padding:10px 16px;
+     color: #030303;
+    font-size: 1.2rem;}
+
+    .nav-link:hover{
+        background-color: rgba(0,0,0, 0.05);
+
+        color: black;
+    }
+
+
+.nav-link span{ margin-left: 24px;
+font-size: 1.2rem;
+line-height:2em ;
+font-weight: 400;
+color: #030303;}
+.side .active{background-color: #e5e5e5;
+}
+
+.nav-link img{ width:24px;
+border-radius: 50%;}
+
+
+.nav p{color:#858181;}
+
+.card-body h5 img{ width:30px;
+margin:5px;
+border-radius: 50%;}
+.portfoilo-items .card-text span{font-size: 12px; 
+;}
+.portfoilo-items .card-text i{font-size:12px;
+   }
+.card{border: none;
+background-color:#f9f9f9;
+}
+
+.pho{font-size: 12px;
+    margin-left: 30px;
+}
+.card-text{margin-left: 30px;}
+
+.con{ margin-left: 280px;
+  
+background-color: #f9f9f9;}
+
+
+
+.shorts .row{  justify-content:space-between;
+    width: 100%;
+    flex-wrap: nowrap;
+    margin-right: 81px;
+    background-color: #f9f9f9;
+}
+
+.container{background-color: #f9f9f9; 
+}
+.header{margin-left: 250px;}
+.first{margin-left: 250px;}
+.second{margin-left: 250px;}
+ .third{ margin-left: 250px;}
+ .fourth{margin-left: 250px;}
+ .fifth{margin-left: 250px;}
+ .sixth{margin-left: 250px;}
+ .seventh{margin-left: 250px;}
+.shorts{margin-left: 280px;}
+
+@media (max-width: 576px) 
+{
+    
+    .midd input{display: none;}
+    .midd button{display: none;}
+    .midd a{display: none;}
+    .midd i{display: none;}
+
+    .midd form{display: none;}
+.ld img{display: none;}
+.rd {display: none;}
+button{display: none;}
+ .side{display: none;}
+.container{
+   width:100%;
+   position:absolute;
+
+  
+}
+
+
+.header .con{height: 1000px;;}
+.shorts { display: none;}
+
+.body{width:390px;
+    margin-left: 500px;
+    }
+ 
+   
+
+   
+}
+
+@media (min-width: 576px) and (max-width: 992px) 
+{}
